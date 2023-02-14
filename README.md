@@ -27,26 +27,24 @@ This approach demonstrated successful results for the task-free saliency predict
 The comparison between the ground truth (left image) and the model prediction (right image) is presented below.
 As a similarity measure, pearson correlation coefficient between the images is computed.
 
-### Good predictions
+
+<h3 style="text-align: center;">Good predictions</h3>
 
 <p align="center">
-    <h3>Good predictions</h3>
     <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_1_%200.924.png?raw=true"/><br>
     <em>CC = 0.924</em>
 </p>
-
 <p align="center">
     <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_2_0.935.png?raw=true"/><br>
     <em>CC = 0.935</em>
 </p>
 
-### Less accurate predictions
+<h3 style="text-align: center;">Less accurate predictions</h3>
 
 <p align="center">
     <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/bad_prediction_1_0.796.png?raw=true"><br>
     <em>CC = 0.796</em>
 </p>
-
 <p align="center">
     <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/bad_prediction_2_0.864.png?raw=true"><br>
     <em>CC = 0.864</em>

@@ -26,24 +26,24 @@ As a similarity measure, pearson correlation coefficient between the images is c
 ### Good predictions
 
 <p align="center">
-    <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_1_%200.924.png?raw=true">
+<img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_1_%200.924.png?raw=true">
 </p>
 <p align="center">CC = 0.924</p>
 
 <p align="center">
-    <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_2_0.935.png?raw=true">
+<img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_2_0.935.png?raw=true">
 </p>
 <p align="center">CC = 0.935</p>
 
 ### Less accurate predictions
 
 <p align="center">
-    <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/bad_prediction_1_0.796.png?raw=true">
+<img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/bad_prediction_1_0.796.png?raw=true">
 </p>
 <p align="center">CC = 0.796</p>
 
 <p align="center">
-    <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/bad_prediction_2_0.864.png?raw=true">
+<img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/bad_prediction_2_0.864.png?raw=true">
 </p>
 <p align="center">CC = 0.864</p>
 

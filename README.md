@@ -17,6 +17,10 @@ Task-specific part of the model is trained with the dataset from **Exploring Vis
 
 ## Model
 
+The model utilizes **FCN semantic image segmentation** [[5]](#5) encoder-decoder architecture for both task-free and task-specific branches.
+
+An attempt was made to exploit the **Xception: Deep Learning with Depthwise Separable Convolutions** [[6]](#6) encoder together with **Predicting Visual Importance Across Graphic Design Types** [[7]](#7) decoder. 
+This approach demonstrated successful results for task-free saliency prediction, but needs to be adapted for the task-specific part.
 
 ## Results
 
@@ -59,3 +63,12 @@ Borkin, Michelle & Bylinskii, Zoya & Kim, Nam & Bainbridge, Constance & Yeh, Che
 
 <a id="4">[4]</a>
 Polatsek, Patrik & Waldner, Manuela & Viola, Ivan & Kapec, Peter & Benesova, Wanda. (2018). Exploring Visual Attention and Saliency Modeling for Task-Based Visual Analysis. Computers & Graphics. 72. 10.1016/j.cag.2018.01.010. 
+
+<a id="5">[5]</a>
+Long, Jonathan & Shelhamer, Evan & Darrell, Trevor. (2014). Fully Convolutional Networks for Semantic Segmentation. Arxiv. 79. 
+
+<a id="6">[6]</a>
+Chollet, Francois. (2017). Xception: Deep Learning with Depthwise Separable Convolutions. 1800-1807. 10.1109/CVPR.2017.195. 
+
+<a id="7">[7]</a>
+Fosco, Camilo & Casser, Vincent & Bedi, Amish & O'Donovan, Peter & Hertzmann, Aaron & Bylinskii, Zoya. (2020). Predicting Visual Importance Across Graphic Design Types. 

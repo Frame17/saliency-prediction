@@ -5,6 +5,7 @@ from torch.utils.data import Dataset
 from torchvision import transforms
 from PIL import Image
 
+
 class FCN(nn.Module):
     def __init__(self, out_channels):
         super(FCN, self).__init__()
@@ -101,7 +102,6 @@ class FCN(nn.Module):
         x = self.upscore16(x)
         x = x[:, :, 24:24 + input.size()[2], 24:24 + input.size()[3]].contiguous()
         return x
-    
     
      
 class Dataset(Dataset):

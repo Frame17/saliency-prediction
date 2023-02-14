@@ -25,11 +25,10 @@ As a similarity measure, pearson correlation coefficient between the images is c
 
 ### Good predictions
 
-<div style="text-align:center">
-    <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_1_%200.924.png?raw=true"/>
-    <br>
+<p align="center">
+    <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_1_%200.924.png?raw=true" alt="image description" /><br>
     <em>CC = 0.924</em>
-</div>
+</p>
 
 <p align="center">
 <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_2_0.935.png?raw=true">

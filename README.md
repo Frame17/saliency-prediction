@@ -19,8 +19,16 @@ Task-specific part of the model is trained with the dataset from **Exploring Vis
 
 
 ## Results
-![alt text](https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_1_%200.924.png?raw=true)
 
+### Good predictions
+
+![](https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_1_%200.924.png?raw=true)
+![](https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_2_0.935.png?raw=true)
+
+### Less accurate predictions
+
+![](https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/bad_prediction_1_0.796.png?raw=true)
+![](https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/bad_prediction_2_0.864.png?raw=true)
 
 ## References
 <a id="1">[1]</a>

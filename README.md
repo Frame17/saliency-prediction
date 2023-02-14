@@ -20,15 +20,21 @@ Task-specific part of the model is trained with the dataset from **Exploring Vis
 
 ## Results
 
+The comparison between the ground truth (left image) and the model prediction (right image) is presented below.
+As a similarity measure, pearson correlation coefficient between the images is computed.
+
 ### Good predictions
 
 ![](https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_1_%200.924.png?raw=true)
+<h5 align="center">CC = 0.924</h5>
 ![](https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_2_0.935.png?raw=true)
-
+<h5 align="center">CC = 0.935</h5>
 ### Less accurate predictions
 
 ![](https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/bad_prediction_1_0.796.png?raw=true)
+<h5 align="center">CC = 0.796</h5>
 ![](https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/bad_prediction_2_0.864.png?raw=true)
+<h5 align="center">CC = 0.864</h5>
 
 ## References
 <a id="1">[1]</a>

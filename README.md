@@ -10,17 +10,17 @@ The model architecture is based on the **Task-driven Webpage Saliency** paper [[
 
 Multiple datasets are used for the model training. 
 
-Task-free part of the model is trained with the join datasets from **What Makes a Visualization Memorable?** [[2]](#2) 
-and **Beyond Memorability: Visualization Recognition and Recall.** [[3]](#3)
+Task-free part of the model is trained with the joint dataset of **What Makes a Visualization Memorable?** [[2]](#2) 
+and **Beyond Memorability: Visualization Recognition and Recall**. [[3]](#3)
 
-Task-specific part of the model is trained with the dataset from **Exploring Visual Attention and Saliency Modeling for Task-Based Visual Analysis.** [[4]](#4)
+Task-specific part of the model is trained with the dataset from **Exploring Visual Attention and Saliency Modeling for Task-Based Visual Analysis**. [[4]](#4)
 
 ## Model
 
 The model utilizes **FCN semantic image segmentation** [[5]](#5) encoder-decoder architecture for both task-free and task-specific branches.
 
-An attempt was made to exploit the **Xception: Deep Learning with Depthwise Separable Convolutions** [[6]](#6) encoder together with **Predicting Visual Importance Across Graphic Design Types** [[7]](#7) decoder. 
-This approach demonstrated successful results for task-free saliency prediction, but needs to be adapted for the task-specific part.
+An attempt was made to exploit the **Xception: Deep Learning with Depthwise Separable Convolutions** [[6]](#6) encoder together with the **Predicting Visual Importance Across Graphic Design Types** [[7]](#7) decoder. 
+This approach demonstrated successful results for the task-free saliency prediction, but needs to be adapted for the task-specific part.
 
 ## Results
 
@@ -30,7 +30,7 @@ As a similarity measure, pearson correlation coefficient between the images is c
 ### Good predictions
 
 <p align="center">
-    <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_1_%200.924.png?raw=true"/><br>
+    <img src="https://github.com/Frame17/saliency-prediction/blob/main/prediction_examples/good_prediction_1_0.924.png?raw=true"/><br>
     <em>CC = 0.924</em>
 </p>
 

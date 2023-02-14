@@ -1,13 +1,8 @@
 import os
-import cv2
 import torch
 import torch.nn as nn
-import torch.optim as optim
-import numpy as np
-from torch.utils.data import DataLoader, Dataset
+from torch.utils.data import Dataset
 from torchvision import transforms
-import torchvision.transforms.functional as F
-import matplotlib.pyplot as plt
 from PIL import Image
 
 from fcn import FCN
